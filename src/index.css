@@ -113,3 +113,43 @@ details[open] > summary {
 .questions {
   margin-top: 20px;
 }
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 700px) {
+body {
+  height:130vh;
+}
+
+.main-big-container {
+  flex-direction: column;
+  height:110vh;
+  width: 450px;
+  -webkit-box-shadow: 5px 80 14px 3px #000000; 
+  box-shadow: 5px 8 0px 14px 3px #000000;
+}
+
+.left-container {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-top-right-radius:15px;
+}
+
+.right-container {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  height:110vh;
+  display: flex;
+  align-items: center;
+  margin:auto;
+}
+
+.image {
+  position:relative;
+  top:20px;
+  right:20px;
+  transform: scale(0.6);
+  }
+}
